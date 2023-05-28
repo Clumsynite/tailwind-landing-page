@@ -1,5 +1,17 @@
+import CoverImage from "../Components/CoverImage";
+import Navbar from "../Components/Navbar";
+
 function Home() {
-  return <div className="w-screen h-screen flex flex-row items-center justify-center text-4xl">HOME</div>;
+  return (
+<div className="">
+<CoverImage>
+      <div className="home_content h-[2400px] w-screen">
+        <Navbar />
+        <div className="">ABCD</div>
+      </div>
+    </CoverImage>
+</div>
+  );
 }
 
 export default Home;
