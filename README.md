@@ -1,4 +1,4 @@
-# React Tailwind Starter Repository
+# Tailwind Landing Page Respository
 
 Welcome to the React Tailwind Starter Repository! This repository provides a solid foundation for developing React applications with the Tailwind CSS framework. It's designed to help you quickly set up a React project with a preconfigured development environment and the necessary dependencies.
 
@@ -80,6 +80,14 @@ This will create a `dist` directory with the optimized and minified production b
 * React: https://reactjs.org/docs
 * Tailwind CSS: https://tailwindcss.com/docs
 * React Router: https://reactrouter.com/web/guides/quick-start
+* Animate On Scroll: https://michalsnik.github.io/aos/
+
+## Credits
+
+The following images used in this project are from [Unsplash](https://unsplash.com):
+
+- [Cover Image](https://unsplash.com/photos/VlgYg9QZd0E) by [Pramod Tiwari](https://unsplash.com/@pramodtiwari)
+- [Story Image](https://unsplash.com/photos/FjwtL3YSZ9U) by [Providence Doucet](https://unsplash.com/@providence)
 
 ## Contributing
 
