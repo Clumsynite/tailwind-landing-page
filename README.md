@@ -1,6 +1,6 @@
 # Tailwind Landing Page Respository
 
-Welcome to the React Tailwind Starter Repository! This repository provides a solid foundation for developing React applications with the Tailwind CSS framework. It's designed to help you quickly set up a React project with a preconfigured development environment and the necessary dependencies.
+Welcome to the React Tailwind Landing Page project! This repository contains the code and resources for a beautiful and responsive landing page built with React and Tailwind CSS.
 
 ## Features
 
@@ -47,13 +47,13 @@ yarn install
 4. **Development Workflow**: The repository is set up with Vite, which provides a fast development server and hot module replacement. Start the development server with the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
 or
 
 ```bash
-yarn start
+yarn dev
 ```
 
 This will start the development server and open the application in your default browser. You can make changes to the code, and the application will automatically reload.
