@@ -1,5 +1,6 @@
 import CoverImage from "../../Components/CoverImage";
 import Navbar from "../../Components/Navbar";
+import Footer from "./Footer";
 import Introduction from "./Introduction";
 import Welcome from "./Welcome";
 
@@ -13,6 +14,7 @@ function Home() {
         </div>
       </CoverImage>
       <Welcome />
+      <Footer />
     </div>
   );
 }

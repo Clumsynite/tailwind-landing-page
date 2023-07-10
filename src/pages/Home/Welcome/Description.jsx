@@ -1,8 +1,8 @@
 function Description() {
   return (
-    <div>
+    <div className="container mx-auto">
       <h6
-        className="text-center text-5xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[yellow] to-[orange]"
+        className="text-center font-medium text-5xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#bfff00] from-4% via-[yellow] to-[orange]"
         data-aos="fade-up"
       >
         Short Description for a template Landing Page
