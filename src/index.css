@@ -18,3 +18,9 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.text_border {
+  -webkit-text-stroke: 1px #DBECE8;
+  color: transparent;
+  font-style: normal;
+}
