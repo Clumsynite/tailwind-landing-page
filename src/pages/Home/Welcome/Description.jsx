@@ -1,6 +1,6 @@
 function Description() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-24" id="description">
       <h6
         className="text-center font-medium text-5xl uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#bfff00] from-4% via-[yellow] to-[orange]"
         data-aos="fade-up"

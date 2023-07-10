@@ -7,7 +7,7 @@ function Story() {
   const onReadMoreClick = () => setReadMore(!readMore);
 
   return (
-    <div className="flex flex-row items-center justify-center py-24 w-[70vw]">
+    <div className="flex flex-row items-center justify-center py-24 w-[70vw]" id="story">
       <div className="flex-[3]">
         <div className="flex flex-row justify-end" data-aos="fade-up">
           <img src={"/images/story.jpg"} alt="Story Image" className="w-[25vw] h-[25vw] rounded-full object-center" />

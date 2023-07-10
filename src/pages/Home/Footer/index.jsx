@@ -2,7 +2,7 @@ import Logo from "../../../Components/Logo";
 
 function Footer() {
   return (
-    <div className="min-h-[4vh] bg-[#1e1e31]">
+    <div className="min-h-[4vh] bg-[#1e1e31]" id="about">
       <div className="container mx-auto py-4">
         <div className="flex flex-row items-center justify-between">
           <div>

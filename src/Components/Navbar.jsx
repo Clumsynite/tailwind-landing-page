@@ -9,24 +9,30 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const onLinkClick = (e) => {
+    e.preventDefault();
+    const id = e?.target?.id;
+    const elem = document.querySelector(id);
+    if (elem) elem.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   const navigationLinks = [
-    { label: "Home", url: "#" },
-    { label: "Introduction", url: "#" },
-    { label: "README", url: "#" },
+    { label: "Home", url: "#home" },
+    { label: "Introduction", url: "#home" },
+    { label: "Description", url: "#description" },
   ];
 
   const dropdownLinks = [
-    { label: "ABOUT", url: "#" },
-    { label: "CONTACT", url: "#" },
-    { label: "SOURCES", url: "#" },
+    { label: "Story", url: "#story" },
+    { label: "About", url: "#about" },
   ];
 
   return (
-    <nav className="bg-transparent text-white">
+    <nav className="bg-transparent text-white" id="home">
       <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-4">
           {navigationLinks.map((link) => (
-            <a key={link.label} href={link.url} className="hidden md:inline-block">
+            <a key={link.label} href={link.url} id={link.url} onClick={onLinkClick} className="hidden md:inline-block">
               {link.label}
             </a>
           ))}
@@ -37,7 +43,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center space-x-4">
           {dropdownLinks.map((link) => (
-            <a key={link.label} href={link.url}>
+            <a key={link.label} href={link.url} id={link.url} onClick={onLinkClick}>
               {link.label}
             </a>
           ))}
@@ -62,7 +68,13 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-transparent py-2 w-full text-center">
           {[...navigationLinks, ...dropdownLinks].map((link) => (
-            <a key={link.label} href={link.url} className="block px-4 py-2 hover:bg-gray-800">
+            <a
+              key={link.label}
+              href={link.url}
+              id={link.url}
+              onClick={onLinkClick}
+              className="block px-4 py-2 hover:bg-gray-800"
+            >
               {link.label}
             </a>
           ))}
@@ -71,4 +83,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;
