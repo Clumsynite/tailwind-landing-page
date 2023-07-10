@@ -8,13 +8,13 @@ function Description() {
         Short Description for a template Landing Page
       </h6>
       <p className="px-12 py-8 text-2xl text-[#fff] text-center" data-aos="fade-up">
-        Introducing [Product/Service Name], a revolutionary [describe product/service] designed to transform [target
-        audience&apos;s] [specific pain point/challenge]. Our [product/service] combines cutting-edge technology with
-        user-friendly features, delivering an unparalleled experience that empowers [target audience] to [desired
-        outcome/benefit]. With [highlight key features/benefits], [Product/Service Name] is the ultimate solution for
-        [target audience]. Whether you&apos;re a [specific user group], [Product/Service Name] is here to revolutionize
-        the way you [specific action/task]. Join the [Product/Service Name] community today and unlock a world of
-        [opportunities/benefits].
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Vestibulum rhoncus est pellentesque elit
+        ullamcorper dignissim cras tincidunt. Iaculis nunc sed augue lacus viverra vitae congue. Feugiat in ante metus
+        dictum at tempor commodo ullamcorper. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Et magnis
+        dis parturient montes. Dis parturient montes nascetur ridiculus. Sit amet consectetur adipiscing elit duis
+        tristique sollicitudin nibh sit. Egestas congue quisque egestas diam in. Sodales ut etiam sit amet nisl purus
+        in.
       </p>
     </div>
   );

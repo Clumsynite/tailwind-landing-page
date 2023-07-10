@@ -19,8 +19,18 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
+body {
+  color: #fff;
+}
+
 .text_border {
-  -webkit-text-stroke: 1px #DBECE8;
+  -webkit-text-stroke: 1px #dbece8;
+  color: transparent;
+  font-style: normal;
+}
+
+.text_border_white {
+  -webkit-text-stroke: 1px #fff;
   color: transparent;
   font-style: normal;
 }
